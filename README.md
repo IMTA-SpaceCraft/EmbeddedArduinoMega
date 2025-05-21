@@ -23,8 +23,9 @@ Le système embarqué est composé de plusieurs briques harwares élémentaires 
 
 ## Composants et datasheet
 Les composants utilisés ainsi que les datasheet se trouvent sur le drive spacecraft :
-https://docs.google.com/spreadsheets/d/11y-STKDh9emp1uLKqlTc0yuigvIuqDNgb3BU6f3UHWU/edit?usp=drive_link
-https://docs.google.com/spreadsheets/d/1ghB6hktbWF-RtLrQcKJszQ0cAxbrcWrscFNlA4eMYhE/edit?usp=drive_link
+Commande 1 : https://docs.google.com/spreadsheets/d/11y-STKDh9emp1uLKqlTc0yuigvIuqDNgb3BU6f3UHWU/edit?usp=drive_link
+
+Commande 2 : https://docs.google.com/spreadsheets/d/1ghB6hktbWF-RtLrQcKJszQ0cAxbrcWrscFNlA4eMYhE/edit?usp=drive_link
 
 ## Architecture logicielle
 Dans cette première version, par manque de temps, le code embarqué est séquentiel, et donc relativement lent. Une amélioration future serait d'introduire une logique par interruption sur microcontroleur type FEMTO, afin d'évoluer sur un RTOS permettant une période d'exécution d'une milliseconde.
